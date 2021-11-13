@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url("../img/bg.jpeg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Head Part */
+.head{
+    margin-bottom: 30px;
+    color: rgb(231, 108, 133);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+/* End Head Part */
+
+/* main Part */
+#main{
+max-width: auto; height: auto;
+padding: 50px;
+display: flex;
+border: none;
+border-radius: 10px;
+box-shadow: 1px 1px 1px 10px #e9dfdf;
+background-image: url("../img/bg.jpeg");
+background-size: cover;
+/* background-color: rgba(204, 231, 49, 0.658); */
+}
+/* End Main Part */
+
+/* Input Section */
+#date{
+    height: 35px;
+    width: 60px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+}
+#month{
+    height: 35px;
+    width: 90px;
+    border: none;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+}
+#year{
+    height: 35px;
+    width: 110px;
+    border: none;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+}
+input[type="text"]:focus{
+    background-color:rgb(196, 138, 167) ;
+}
+/* End Input Section */ 
+
+/* button */
+#btn{
+    margin-left: 40px;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(211, 125, 67);
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+#btn:hover{
+    /* background-color:yellowgreen; */
+    color: black;
+    transition: .3s ease;
+}
+/* End Button */
+
+/* label */
+label{
+    display: block;
+    padding: 10px;
+    font-weight: 400;
+    /* margin-top: 20px */
+}
+/* End Label */
+.textOut{
+    padding: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: bisque; */
+}
+#text{
+    margin-top: 30px;
+    color: rgb(231, 108, 133);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
